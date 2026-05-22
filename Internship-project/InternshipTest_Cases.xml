@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Internship.ValidVerification_login"/>
+      <class name="Internship.Invalidverification_login"/>
+      <class name="Internship.Empty_input_Login"/>
+      <class name="Internship.NavigationTesting"/>
+      <class name="Internship.FormSubmition"/>
+      <class name="Internship.Verification_on_formSubmition"/>
+      <class name="Internship.Verification_of_UI_Elements"/>
+      <class name="Internship.Chrome_Browser"/>
+      <class name="Internship.Edge_Browser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
